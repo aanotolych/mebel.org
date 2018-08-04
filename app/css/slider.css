@@ -1,0 +1,44 @@
+#articles {
+	margin-top: 70px;
+}
+
+.blog__articles {
+	margin-top: 0;
+	position: relative;
+	overflow-x: hidden !important;
+}
+
+.articles__slide {
+	width: 224px;
+	margin: 0 10px;
+}
+
+.blog__slider {
+	padding: 0 40px;
+}
+
+.blog__articles_article {
+	width: 100%;
+}
+
+.other__wrap_img-wrap img {
+	width: 100%;
+}
+
+.other__wrap_overlay img {
+	width: auto !important;
+	display: inline;
+}
+
+.blog__articles:hover .slider__arrows {
+	opacity: 1;
+	margin-top: -30px;
+}
+
+.blog__arrow_prev {
+	left: 25px;
+}
+
+.blog__arrow_next {
+	right: 25px;
+}

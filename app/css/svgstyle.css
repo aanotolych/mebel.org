@@ -1,0 +1,13 @@
+.man {
+	fill: #ffffff;
+}
+
+.man__second {
+	fill: #ffffff;
+	color: #ffffff;
+	background: green;
+}
+
+#object {
+	cursor: pointer;
+}

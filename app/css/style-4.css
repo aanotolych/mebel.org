@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700&subset=cyrillic);
+
+/* ------ Specification ------ */
+
+body {
+	font-family: 'Roboto';
+	font-size: 14px; 
+	color: #333;
+	font-weight: 400;
+	padding: 0px;      
+	margin: 0px;      
+}
+
+ul, li {         
+	display: block;           
+	padding: 0;               
+	margin: 0;             
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;             
+	margin: 0;              
+}
+
+p {
+	margin: 0;            
+}
+
+div, p, form, input, a, span, button {   
+	box-sizing: border-box;
+}
+
+h1 {                     
+	font-size: 24px;
+	margin-bottom: 26px;
+}
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;	
+}
+
+.justify-content-center {
+	justify-content: center;	
+}
+
+.align-items-center {
+	-ms-align-items: center;
+	align-items: center;
+}
+
+a, button, input {
+  transition: all 0.5s ease;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active, 
+a, a:hover, a:focus, a:active
+
+ {
+  outline: none;
+  text-decoration: none;
+  color: #333;
+  box-shadow: none;
+}
+
+      /* ------ Contacts screen ------ */
+
+.contacts {
+	padding-top: 37px;
+}
+
+.breadcrumbs {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-top: 37px;
+	align-items: center;
+}
+
+.breadcrumbs__icon {
+	background: url(../img/house.png) no-repeat center top;
+	height: 13px;
+	width: 13px;
+	color: #333333;
+	margin-top: -5px;
+}
+
+.breadcrumbs__point {
+	width: 5px;
+	height: 5px;
+	background: #333333;
+	border-radius: 50px;
+	margin: 0 5px 0 6px;
+}
+
+.breadcrumbs__link {
+	color: #2B2A29;
+	font-size: 12px;
+	line-height: 14px;
+	font-family: 'Roboto';
+}
+
+.breadcrumbs__link:hover {
+	color: #0077cc;
+}
+
+.contacts__title {
+	margin-top: 20px;
+	margin-bottom: 26px;
+	line-height: 28px;
+}
+
+.contacts__menu {
+	margin-left: 9px;
+	margin-top: 12px;
+}
+
+.contacts__item {
+	align-items: center;
+	padding-bottom: 40px;
+}
+
+.contacts__link {
+	color: #333;
+	font-family: 'Roboto';
+	font-size: 20px;
+	line-height: 23px;
+	align-items: center;
+    display: flex;
+}
+
+.contacts__link:hover {
+	color: #0077cc;
+}
+
+.contacts__link span{
+	margin-left: 16.78px;
+}
+
+.contacts__wrapper {
+	margin-bottom: 61px;
+	margin-top: 15px;
+	margin-left: 110px;
+}
+
+.contacts__subtitle {
+	line-height: 23px;
+	padding-bottom: 21.92px;
+	margin-bottom: 7px;		
+}
+
+.contacts__desc {
+	line-height: 25px;
+	max-width: 550px;
+}
+
+.contacts__desc a {
+	color: #0077cc;
+}
+
+.contacts__desc a:hover {
+	color: #333;
+}
+
+.contacts__wrapper_buyer {
+	margin-top: 38px;	
+}
+
+.contacts__wrapper_buyer .contacts__desc {
+    max-width: 615px;
+}
+
+.contacts__wrapper_gos {
+	margin-top: 55px;	
+}
+
+.contacts__wrapper_gos .contacts__desc {
+	margin-top: 25px;	
+}
+
+.contacts__wrapper_press {
+	margin-top: 90px;
+}
+
+.contacts__wrapper_press .contacts__desc {
+	margin-top: 25px;	
+}
+
+.contacts__wrapper_press .contacts__desc {
+    max-width: 615px;
+}

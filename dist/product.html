@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Один товар</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<!-- Favicon -->
+	<link rel="icon" href="/ico/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/ico/favicon.ico" type="image/x-icon">
+	<!--Styles-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/banners.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/zoomove.min.css">
+  <link rel="stylesheet" href="css/dropzone.min.css">
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- css только для теста -->
+  <link rel="stylesheet" href="css/test-only.css">
+
+</head>
+
+<body>
+
+<div class="pr-wrap">
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__review">
+      <div class="review-block">
+        <div class="review-block__stars">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <span>15</span>
+        </div>
+      </div>
+    </div>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+        <p class="product__price-old">18 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <div class="product__add-color">
+            <a class="product__add-color_item" href="">
+              <img src="img/product-10.jpg" alt="">
+            </a>
+            <a class="product__add-color_item" href="">
+              <img src="img/product-10.jpg" alt="">
+            </a>
+            <a class="product__add-color_item" href="">
+              <img src="img/product-10.jpg" alt="">
+            </a>
+            <a class="product__add-color_item" href="">
+              <img src="img/product-10.jpg" alt="">
+            </a>
+            <a class="product__add-color_item-text" href="">
+              Ещё
+            </a>
+          </div>
+        </li>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Производитель</p>
+          <p class="product__add-text"><a href="#">Julia Grup</a></p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__review">
+      <div class="review-block">
+        <div class="review-block__stars">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <span>15</span>
+        </div>
+      </div>
+    </div>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__review">
+      <div class="review-block">
+        <div class="review-block__stars">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <span>15</span>
+        </div>
+      </div>
+    </div>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Производитель</p>
+          <p class="product__add-text"><a href="#">Julia Grup</a></p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__review">
+      <div class="review-block">
+        <div class="review-block__stars">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <span>15</span>
+        </div>
+      </div>
+    </div>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+        <p class="product__price-old">18 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+        <p class="product__price-old">18 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Производитель</p>
+          <p class="product__add-text"><a href="#">Julia Grup</a></p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__review">
+      <div class="review-block">
+        <div class="review-block__stars">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <span>15</span>
+        </div>
+      </div>
+    </div>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+        <p class="product__price-old">18 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Производитель</p>
+          <p class="product__add-text"><a href="#">Julia Grup</a></p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__review">
+      <div class="review-block">
+        <div class="review-block__stars">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <span>15</span>
+        </div>
+      </div>
+    </div>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+        <p class="product__price-old">18 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Производитель</p>
+          <p class="product__add-text"><a href="#">Julia Grup</a></p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+        <p class="product__price-old">18 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Производитель</p>
+          <p class="product__add-text"><a href="#">Julia Grup</a></p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="product">
+    <div class="product__toolbar">
+      <div class="product__toolbar-item product__toolbar--favorite">
+        <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.1614 1.45852C15.0502 1.45852 16.495 3.05561 16.495 5.10483C16.495 8.1969 10.8211 13.3892 8.9699 14.4321C7.18645 13.3747 1.50502 8.18231 1.50502 5.10483C1.50502 3.05561 3.01003 1.45852 4.83863 1.45852C5.91472 1.45852 6.77258 2.10027 7.93896 3.20875L9.0301 4.2443L10.0686 3.20875C11.2124 2.10027 12.0853 1.45852 13.1614 1.45852ZM13.1614 0C11.393 0 10.1513 1.09389 9 2.18778C7.87876 1.09389 6.61455 0 4.83863 0C2.16722 0 0 2.18778 0 5.10483C0 9.4804 7.87876 16 9.0301 16C10.1814 16 18 9.4804 18 5.10483C18 2.18778 15.8328 0 13.1614 0V0Z" fill="#F7F7F7"/>
+          </svg>
+      </div>
+      <div class="product__toolbar-item product__toolbar--compare">
+        <svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4.6673 1.54545V15.4545H1.55577V1.54545H4.6673ZM4.6673 0H1.55577C1.14315 0 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545L0 15.4545C0 15.8644 0.163911 16.2575 0.455673 16.5473C0.747436 16.8372 1.14315 17 1.55577 17H4.6673C5.07991 17 5.47563 16.8372 5.76739 16.5473C6.05915 16.2575 6.22306 15.8644 6.22306 15.4545V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 0 4.6673 0V0Z" fill="#F7F7F7"/>
+          <path d="M4.6673 1.54545V9.79046H1.55577V1.54545H4.6673ZM4.6673 -5.89544e-08H1.55577C1.14315 -5.89544e-08 0.747436 0.162824 0.455673 0.452653C0.163911 0.742482 0 1.13557 0 1.54545V9.79046C0 10.2003 0.163911 10.5934 0.455673 10.8833C0.747436 11.1731 1.14315 11.3359 1.55577 11.3359H4.6673C5.07991 11.3359 5.47563 11.1731 5.76739 10.8833C6.05915 10.5934 6.22306 10.2003 6.22306 9.79046V1.54545C6.22306 1.13557 6.05915 0.742482 5.76739 0.452653C5.47563 0.162824 5.07991 -5.89544e-08 4.6673 -5.89544e-08V-5.89544e-08Z" transform="translate(7.77734 5.66406)" fill="#F7F7F7"/>
+          </svg>
+      </div>
+    </div>
+    <a class="product__link" href="#">
+      <div class="product__pic">
+        <img class="product__img" src="img/product-10.jpg" alt="">
+      </div>
+      <p class="product__name">Обеденная группа для кухни Милан-2 (ноги хром)</p>
+    </a>
+    <div class="product__review">
+      <div class="review-block">
+        <div class="review-block__stars">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <img src="img/product-star.svg" alt="">
+          <span>15</span>
+        </div>
+      </div>
+    </div>
+    <div class="product__bottom">
+      <div class="product__price">
+        <p class="product__price-new">от 16 000 руб</p>
+        <p class="product__price-old">18 000 руб</p>
+      </div>
+      <button class="product__cart">
+        <img src="img/cart-2.svg" alt="">
+      </button>
+    </div>
+    <div class="product__add">
+      <ul>
+        <li>
+          <p class="product__add-title">Артикул</p>
+          <p class="product__add-text">570267</p>
+        </li>
+        <li>
+          <p class="product__add-title">Габариты</p>
+          <p class="product__add-text">100 х 100 х 100 мм</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

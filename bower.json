@@ -1,0 +1,25 @@
+{
+  "name": "web",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "bootstrap": {
+        "main": [
+            "./dist/js/bootstrap.min.js",
+            "./dist/css/bootstrap.min.css"
+            ]
+    }
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
